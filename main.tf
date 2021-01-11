@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    hcxmgmt = {
+    hcx = {
       source = "adeleporte/hcx"
     }
   }
