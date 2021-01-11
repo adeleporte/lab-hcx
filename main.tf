@@ -10,6 +10,8 @@ provider hcx {
     hcx               = "https://192.168.110.70"
     admin_username    = "admin"
     admin_password    = "VMware1!"
+    username          = "administrator@vsphere.local"
+    password          = "VMware1!"
 }
 
 
