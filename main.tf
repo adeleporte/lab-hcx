@@ -66,6 +66,8 @@ resource "hcx_site_pairing" "site1" {
     url         = "https://hcx-cloud-01b.corp.local"
     username    = "administrator@vsphere.local"
     password    = "VMware1!"
+  
+    depends_on  = [hcx_rolemapping.rolemapping]
 }
 
 resource "hcx_network_profile" "net_management" {
